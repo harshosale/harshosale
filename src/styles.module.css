@@ -1,0 +1,115 @@
+.body {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.app {
+    background-color: black;
+    display: flex;
+    margin: -8px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.header {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flex;
+    align-items: center;
+    color: lime;
+    height: 150px;
+    font-size: x-large;
+
+    .header_image {
+        margin: 10px;
+        width: 100px;
+        height: 80px;
+        border-radius: 100px;
+    }
+    .header_content {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .header_name {
+        color: orangered;
+        padding-left: 30px;
+    }
+    .header_name:hover {
+        color: orange;
+        padding-left: 30px;
+    }
+    .header_navigations {
+        display: flex;
+        flex-direction: row;
+        .header_navigation {
+            margin: 10px;
+        }
+        .header_navigation:hover {
+            color: yellow;
+        }
+    }
+}
+
+.content {
+    padding-left: 200px;
+    padding-right: 200px;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: large;
+    & > * {
+        margin: 10px;
+        padding: 10px;
+        flex-grow: 1;
+        height: 85%;
+    }
+}
+
+.footer {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    color: blue;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    text-align: center;
+}
+.about {
+    /* background-color: linen; */
+}
+.project {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.project:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.project_image {
+    padding: 10px;
+    height: 200px;
+    width: auto;
+}
+.project_content {
+    padding: 10px;
+}
