@@ -2,19 +2,25 @@ import styles from "./styles.module.css";
 const Projects = () => {
   const data = [
     {
-      img: "https://media.licdn.com/dms/image/D4D03AQH0aGV02S7IBA/profile-displayphoto-shrink_800_800/0/1680938017511?e=1706140800&v=beta&t=GkaFd0NviM5C7QqZo4zwdwYdM09kDtJoMfUqxCTYYh8",
-      content: "sdcsx",
+      img: "https://images.healthshots.com/healthshots/en/uploads/2023/04/26155309/raisins-2-1600x900.jpg",
+      content: "SHAM - E-commerce store for raisins.",
+      link: "",
     },
     {
-      img: "https://media.licdn.com/dms/image/D4D03AQH0aGV02S7IBA/profile-displayphoto-shrink_800_800/0/1680938017511?e=1706140800&v=beta&t=GkaFd0NviM5C7QqZo4zwdwYdM09kDtJoMfUqxCTYYh8",
-      content: "sdcsx",
+      img: "https://geniespreadsheets.com/wp-content/uploads/2023/07/1-5-800x800.png",
+      content:
+        "Finance tracker - Income and Expense management system to track your cashflows.",
+      link: "",
     },
   ];
   return (
-    <div>
+    <div className={styles.projects}>
       {data.map((element) => {
         return (
-          <div className={styles.project}>
+          <div
+            className={styles.project}
+            onClick={() => window.open(element.link)}
+          >
             <img
               className={styles.project_image}
               src={element.img}

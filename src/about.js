@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className={styles.about}>
       {data.map((element) => (
-        <p>{element}</p>
+        <p key={element}>{element}</p>
       ))}
     </div>
   );
