@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b8c8b44.css",
-    "main.js": "/static/js/main.1ab7ea4f.js",
-    "index.html": "/index.html",
-    "main.0b8c8b44.css.map": "/static/css/main.0b8c8b44.css.map",
-    "main.1ab7ea4f.js.map": "/static/js/main.1ab7ea4f.js.map"
+    "main.css": "/harshosale/static/css/main.0b8c8b44.css",
+    "main.js": "/harshosale/static/js/main.1ab7ea4f.js",
+    "index.html": "/harshosale/index.html",
+    "main.0b8c8b44.css.map": "/harshosale/static/css/main.0b8c8b44.css.map",
+    "main.1ab7ea4f.js.map": "/harshosale/static/js/main.1ab7ea4f.js.map"
   },
   "entrypoints": [
     "static/css/main.0b8c8b44.css",
