@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/harshosale/static/css/main.0b8c8b44.css",
-    "main.js": "/harshosale/static/js/main.1ab7ea4f.js",
+    "main.css": "/harshosale/static/css/main.3a45016f.css",
+    "main.js": "/harshosale/static/js/main.e9ad1190.js",
+    "static/media/header_image.jpeg": "/harshosale/static/media/header_image.9470f1fbffb88dd3a607.jpeg",
     "index.html": "/harshosale/index.html",
-    "main.0b8c8b44.css.map": "/harshosale/static/css/main.0b8c8b44.css.map",
-    "main.1ab7ea4f.js.map": "/harshosale/static/js/main.1ab7ea4f.js.map"
+    "main.3a45016f.css.map": "/harshosale/static/css/main.3a45016f.css.map",
+    "main.e9ad1190.js.map": "/harshosale/static/js/main.e9ad1190.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b8c8b44.css",
-    "static/js/main.1ab7ea4f.js"
+    "static/css/main.3a45016f.css",
+    "static/js/main.e9ad1190.js"
   ]
 }
